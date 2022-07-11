@@ -1,0 +1,105 @@
+body {
+  padding: 50px;
+  background-color: #121212;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #ffffff;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+.main {
+  background: rgba(255, 255, 255, 5%);
+  padding: 1em;
+  border-radius: 1%;
+}
+.title {
+  margin: 1em;
+}
+.title > * {
+  margin-bottom: 1em;
+}
+.btn {
+  background-color: #ffffff;
+  color: #000;
+}
+.cancel {
+  background-color: #ca5151;
+  color: #000;
+}
+.cancel:hover {
+  background-color: #ffffff !important;
+  color: #ca5151 !important;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  transition: 0.5s;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #000;
+}
+.message-div {
+  display: flex;
+  margin: 1.5em;
+  flex-direction: column;
+}
+.message-div h4 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.message-div p {
+  opacity: 100%;
+  font-style: italic;
+  margin: 1em;
+}
+.message-div h5 {
+  opacity: 38%;
+}
+
+.message-form {
+  margin-top: 1em;
+  max-width: 500px;
+}
+.message-form textarea {
+  height: 150px;
+}
+.form-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
